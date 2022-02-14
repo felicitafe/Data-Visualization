@@ -1,4 +1,5 @@
 # Scatter Plot Based on Cytoband
+# y axis is genomic coordinates, divided into cytoband ranges
 
 
 ggplot(ex, aes(x=pos, y=pval), geom_jitter()) + 
